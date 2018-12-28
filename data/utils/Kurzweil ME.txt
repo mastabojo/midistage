@@ -1,0 +1,62 @@
+Setting the Pitch Bend Range for Individual Programs via MIDI
+-------------------------------------------------------------
+http://kurzweil.com/knowledgebase/me-1/midi_controllers/33/
+
+Pitch Bend Range can be set by sending MIDI controller messages. Specifically, you do it with Registered Parameters (cc# 100 and 101).
+
+On the MIDI channel in question, you need to send:
+MIDI cc101 	= 0
+MIDI cc100 	= 0
+MIDI cc6 	= value of desired bend range (in semitones)
+
+Example: Lets say you want to set the bend range to 2 semi-tones. First you send cc# 100 with a value of 0; then cc#101 with a value of 0. This turns on reception for setting pitch bend with the Data controller (#6). Then you send cc# 6 with a value of 2 (in semitones; this will give you a whole step up and a whole step down from the center).
+
+Once you have set the bend range the way you want, then you send controller 100 or 101 with a value of 127 so that any further messages of controller 6 (which you might be using for other stuff) won't change the bend range. 
+
+Select Programs via MIDI
+------------------------
+http://kurzweil.com/knowledgebase/me-1/midi_controllers/319/
+
+
+1. by default, the KME/61 and ME-1 use MIDI Bank message cc#32 (Bank LSB**) to send/receive bank info
+2. following the bank message a standard program change needs to be sent (0-127) depending on the patch in that bank you are after
+
+The KME/ME has 2 Banks (see pg. 11 in the manual):
+-MIDI Bank 0
+-MIDI Bank 6
+
+An example:
+You want to call up program 099 "Electric 12" (from bank 6)
+
+From your keyboard/DAW, on the desired channel, you send :
+-cc32=6
+-pchg=99
+
+Repeat for other channels as needed (up to 16).
+
+**If your keyboard/DAW also forces you to send cc#0 (Bank MSB) simply enter value=0 (zero).
+
+Effects
+-------
+You can also select an effect by sending the
+MicroPiano a MIDI controller 83 message with one
+of the values shown in the above chart. Note that
+any value greater than 16 selects ÒPrgÓ mode
+
+The Wet/Dry Mix of reverb can be adjusted
+from your master controller by sending MIDI con-
+troller 91 messages. Values 0-127 change the mix
+from dry to wet.
+
+The Wet/Dry Mix of chorus can be adjusted
+from your master controller by sending MIDI con-
+troller 93 messages. Values 0-127 change the mix
+from dry to wet.
+
+When you change the EFFECTS mode (either
+through the front panel or through MIDI), the
+Wet/Dry Mix is reset to the new effectÕs default.
+Similarly, when you change the PROGRAM mode
+while the EFFECTS mode is set to ÒPrg,Ó the
+Wet/Dry Mix is reset to the new effectÕs defau
+

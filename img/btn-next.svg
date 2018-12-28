@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="80"
+   height="80"
+   viewBox="0 0 21.166666 21.166667"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 unknown"
+   sodipodi:docname="btn-next.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="372.05328"
+     inkscape:cy="380.88751"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1600"
+     inkscape:window-height="835"
+     inkscape:window-x="1680"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-275.83332)">
+    <ellipse
+       ry="9.3739071"
+       rx="9.373908"
+       style="fill:none;stroke:#cccccc;stroke-width:2.41885161;stroke-miterlimit:4;stroke-dasharray:none"
+       cy="286.41666"
+       cx="10.583333"
+       id="icon-circle"
+       inkscape:label="icon-circle" />
+    <path
+       style="fill:#cccccc;stroke:none;stroke-width:2.79348278;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 7.0619575,282.01069 v 4.40601 4.40602 l 2.7150933,-2.2031 0.7116062,-0.57736 v 2.78046 l 2.715114,-2.2031 2.715106,-2.20292 -2.715106,-2.2031 -2.715114,-2.20291 v 2.78026 L 9.7770508,284.2136 Z"
+       id="icon-action"
+       inkscape:connector-curvature="0"
+       inkscape:label="icon-action" />
+  </g>
+</svg>

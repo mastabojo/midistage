@@ -1,0 +1,63 @@
+ E-MU Proteus 2000 Series Expansion Sound ROM Guide EMU
+fixinpcs303
+55K Views 161 Likes
+Like
+if this guide is helpful
+Share
+October 24, 2016
+
+Here is a rough guide to the E-mu Proteus 2000 series Expansion Sound ROM's.
+
+Updating for 2015. Guide prices here to help. Including ROM Part Numbers where available.
+
+Pricing and value must be realized due to technological advances especially with regards to software instruments.
+
+The original Composer sound set is now available in software. The FREE proteus VX software synth includes the entire composer sound set! this should make anyone pause for thought before buying a proteus 2000! Proteus LE bundled with the E-mu Xboard controllers also includes this sound set. The Composer sounds also come with ALL versions of E-mu Emulator X.
+
+This presents a dilemma for any buyers: 128 Voice hardware synth or Plugin with full integration in your DAW with huge level of control-ability.
+
+Update, E-mu Emulator X is now discontinued by Creative Labs. The Proteus VX is still available with limited operating system support. The original E-mu released sound libraries are now harder to obtain than the hardware expansion ROM's! Most of the Proteus X and Emulator X libraries are available from Digital Sound Factory, the Rob Papen sounds are NOT available via DSF.
+2016 Update. **** Avoiding faulty E-MU ROM cards.****
+If buying ANY of these ROMs get a guarantee from the seller that it passes E-MU diagnostics! To run a diagnostics test, power on the E-MU module with both left and right arrow keys held down. This will boot up the module in diagnostic mode. In this mode run the ROM Card test, if the card fails the test it is defective.
+ROMS:
+
+01    Part # AP10172-01 WO #P41998 Proteus 2000 Composer (CMPSR)
+17    Part # AP12068-17 Proteus Pop Collection (P2500 or PROM1)
+
+The Composer ROM has 8 banks giving a full 1024 preset patches! This is the original ROM Wave and patch data from the Proteus 1000 & 2000. Try not to pay more than $100 for the original composer rom considering it is available for free with Proteus VX.
+
+9140 PROTEUS Pop Collection. Included with the Proteus 2500 Module and PK-6 Proteus Keys. This ROM uses the exact same 32 MEG sample set as the original E-mu Composer ROM but has an all new set of 640 preset patches. You may find a P2500 ROM with only 512 presets but these are rare and shipped with the first few Proteus 2500 modules only. The patch organization matches the newer ROM's with all basses under the BAS category rather than BS1, BS2... subcategories like the original.Target Price $125, has some excellent patches! well worth the extra over the composer ROM for this alone.
+
+13    AP12068-13 W/O #58359 Mo Phatt
+
+15    AP10498-15 W/O #59295 MP-7 Phatt
+
+9062 Pure Phatt ROM 32MEG, 512 Patches of hiphop / rap sounds. Includes some very high quality percussion sounds and some great basses. Included with the MO'PHATT module, variations included with the MP-7 command station and MK-6. The MP-7 rom has KIT presets where the Mo'Phatt versions are BTS presets ready set up for beats mode. The MK-6 Mo Phatt Keys ROM has 128 extra patches not available anywhere else. This MK-6 rom is labelled MROM1. Target Price: $70 for the regular Pure Phatt ROM. Try not to pay no more than $100 for one of these ROMs. The MK-6 version may be worth a little more as it is scarce. Available in Proteus X software format for around $30 9064 ENSONIQ Project ROM 32MEG, Prob 512 Patches. This extremely rare ROM is very difficult to get, it contains patches originally released by Ensoniq on the EXP-1 Real World and EXP-3 Urban Dance expansion boards designed for the ASR-x and ZR series synths. Quite a mixed range of sounds including urban and world sounds. Target Price: $150, though due to rarity you might have to pay as much as $250 to get one of these in as new condition with the original box and manuals. E-mu have released this in software format in 3 separate volumes with many more patches. The Libraries are called Ensoniq ASR, Ensoniq ZR-76 and Ensoniq MR-76.
+
+23    Part # AP12068-23 Vintage Collection
+
+9065 Vintage Collection ROM 32MEG 512 Patches. Originally included with the Vintage Pro module and the Vintage Keys keyboard. Includes a wide selection of sounds from vintage synth and electronic keyboard instruments. If you want electric piano, organ and synth patches this may be the ROM you need. This is another pretty rare ROM and is reasonably difficult to find these days. Target Price: $150 if you can find the ROM alone for sale at a LOW price!. A Vintage Pro module could cost as much as $300 at today's prices. The Vintage Keys keyboard is very rare these days, expect to pay $400+ if you can find one. The Vintage Pro sound set is available in Proteus X format for around $50.
+
+24    Part # AP12068-24 Protean Drums
+
+9066 Protean Drum ROM 32MEG 512 Patches. Originally included with the PX-7 Command station. I don't believe the upgrade ROM was available for long and as the PX-7 was one of E-mu's last hardware synths this ROM is very scarce. This ROM is one of the best! has an unbelievable selection of Rhythm sounds, some of the drums are top notch. The "Cone Ripper" bass patch is brilliant too. Target Price $150. The Protean Drums sound set is available in Proteus X format for around $40
+
+03  Part# AP10172-03 Protozoa
+
+9082 Protozoa ROM 16MEG 512 Patches. Includes 128 patches from each of the Proteus 1,2 and 3 modules from the eighties. Some great sounds in here. Includes some fabulous electric piano sounds and a variety of world sounds too. The fourth bank is a composite bank of patches made from samples from all 3 modules. The patch categories and naming scheme is the same as the original Composer ROM. Target Price $100, this is only a 16 meg ROM and the sounds are available cheaply in the original modules. These sounds are available in Proteus X format as the Proteus Orbit Phat library. 9083 Definitive B-3 ROM Featured in the B-3 Module. Contains mainly Hammond Organ Variant sounds with a few extra patches of other types thrown in. Captures most useful Hammond draw-bar settings in this one ROM. If you are big on the Hammond sound this ROM will please you a lot! Target Price: $150 This ROM is quite scarce these days. the B3 modules including the ROM fetch some pretty high prices too. This soundset is also available in Proteus X format.
+
+11   Part # AP12068-11 W/O #58421 World Expedition
+
+9087 World Expedition ROM Originally fitted in the PLANET EARTH module. This ROM was sold for quite some time as an upgrade part, it is surprisingly hard to find these days. A great range of ethnic and world percussion sounds. Target Price:$150. This is also available in Proteus X format for around $40
+
+22    Part # AP10498-22 W/O #60523 Sounds of the ZR (QROM1 / HALO)
+
+9088 Sounds of the ZR featuring Perfect Piano ROM Originally fitted in the Ensoniq Halo keyboard. This ROM features a selection of everyday all around sounds, it complements the composer set quite well. Includes the Perfect Piano patch too. Target Price: $100. Again this is available in Proteus X format as the Ensoniq ZR-76 library.
+
+06    Part # AP10172-06 WO #P59051 XLead xl-1 14    Part # AP12068-14 W/O #? XL-7 18    Part # AP10498-18: X-Lead v2 / XK-6, ROM-ID=14, (XROM1)
+
+9089 X-LEAD ROM As fitted to the Xtreme Lead 1 module, XL-7 Command Station and XK-6 Xtreme Keys. This ROM has a few variants! the original 512 patch XL-1 ROM, the X-Lead V2 rom with 640 patches and the XL-7 ROM from the command station with the first 4 banks of the X-Lead 2. The XK-6 ROM has 640 patches but I am unsure whether these are the same as the X-Lead 2 in bank 4. Target Price $80, this is the most readily available and hence lowest cost upgrade ROM. Try to get the 5 bank version, pay no more than $50 for a 4 bank variant. The XL-1 soundset is available in Proteus X format for around $50 and is included with Emulator X 3.
+
+04    Part # AP10172-04 W/O #P43293 original 3 Bank Techno ROM 16    Part # AP12068-16 W/O #60485 Beat Garden
+
+9063 Beat Garden ROM + 9084 Techno Synth Construction Yard ROM These 2 ROM's form the sound set for the Orbit 3 Super Synth. 1024 Rob Papen trademark dance / techno / vintage patches Probably E-mu's greatest 2 ROM's. These contain a huge range of killer modern synth sounds. Target Price: $100 each. The Orbit 3 itself is now a $300 item but is not seen for sale very often. Both soundsets are available in Proteus X format for around $50 each. 9061 Peter Siedlaczek Advanced Orchestra ROM 32 megs of additional orchestral sounds again of high quality for the time of release but largely eclipsed by today's multi-gigabyte software libraries. This exact ROM is not available in software form but E-mu did release the Studio Orchestra library for Proteus X. 9085 Orchestral Sessions Vol.1 Section Strings ROM + 9086 Orchestral Sessions Vol.2 Woodwind, Brass, Percussion, Solo Strings ROM These two ROMS together were fitted to the Virtuoso 2000 classical module and contain some of the best classical sounds available on a hardware synth anywhere! of course not as good as new multi-gigabyte software libraries but this is a 128 note hardware system! zero cpu load is worth something right? The Virtuoso soundset is also available in Proteus X format for around $50. Additional Info: All Proteus X libraries are compatible with Proteus X, Proteus X LE, Proteus VX and Proteus X 2. The Proteus X libraries are also fully compatible with E-mu Emulator X in all versions. Operating system limitations: Only Emulator X 3 is currently fully 64 bit compatible. The Proteus X 2 and VX have been proven to work under the 32 bit versions of Vista and Windows 7 but can be very difficult to get working under the 64 bit versions of the newer operating systems. Proteus VX has been reported to work under Windows 7 64 bit when used within the 32 bit version of Cakewalk Sonar X1. **** All versions of Emulator X are now discontinued.*** **** Only Proteus VX is available, all other versions are discontinued. *** Software or Hardware? The big question: The $199 price tag of Emulator X 3 weighs up very well against a Proteus 2000 series sound module with extra Rom cards. Emulator X also provides hugely convenient features like the patch library system and quickly user defined controllers. On screen editing in the software is also hugely more intuitive than editing from the front panel of a rack synth module. If your system will run the free Proteus VX synth you have access to the entire range of sound libraries at a hugely lower cost than any hardware configuration. Plus the software version doesn't need MIDI cables or multiple audio cables to link into your DAW. It may be worth pressing an older Windows XP PC into service as a Proteus VX host to run the libraries and pipe digital audio straight into your main computer running Windows 7 64 Bit for example. Most of the Proteus 2000 sound sets are also available from Digital Sound Factory in SoundFont format which is great for X-fi and Audigy owners. It comes down to a decision on cost vs sound character. It's up to you if the character of the old E-mu hardware is that much better than its modern software equivalent. Also modern equivalents like Sampletank 3 include thousands of patches for less than the cost of some of the ROM's.  

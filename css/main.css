@@ -1,0 +1,264 @@
+/*Hide scrollbars in main window*/
+/*
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}*/
+
+body {
+    margin: 0;
+}
+
+
+@font-face {
+    /*
+    font-family: 'digital-7regular';
+    src: url('http://midistage.local/resources/fonts/digital-7.regular-webfont.woff2') format('woff2'),
+    url('http://midistage.local/resources/fonts/digital-7.regular-webfont.woff') format('woff');
+    */
+    font-family: 'digital-7regular';
+    src: url('http://midistage-pi.local/resources/fonts/aldrich-regular-webfont.woff2') format('woff2'),
+         url('http://midistage-pi.local/resources/fonts/aldrich-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	/* 
+	font-family: 'digital-7regular';
+    font-family: 'sans serif'; 
+    font-family: 'aldrich-regular';
+    */
+    font-family: 'digital-7regular';
+    font-size: 16px;
+}
+
+body.performance {
+	background-color: #222;
+    overflow: hidden;
+}
+
+#container {
+	height: 480px;
+    width: 800px;
+    margin: 0;
+    overflow: hidden;
+}
+
+#title-div {
+	height: 3%;
+	width:100%;
+	margin:0;
+
+}
+
+#title-div, #controls-div  {
+    color: #aaa;
+    background-color: #222;
+}
+
+#title-div select, #controls-div select {
+	color: #222;
+}
+/* Hide scrollbars in main window */
+#songs-div::-webkit-scrollbar {
+    width: 0px;
+}
+
+#songs-div {
+    height: 70%;
+    width: 100%;
+    overflow: auto;
+}
+
+#controls-div {
+	margin-top: 3px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#controls-div .control {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: none;
+}
+
+#controls-div .control-marker {
+	display: inline-block;
+
+    padding: 5px;
+    cursor: pointer;
+}
+
+/*
+.control-marker:hover {
+    background-color: #444;
+    color: #33ff33;   
+}
+*/
+
+.control-marker:active {
+    background-color: #888;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.tbl-songlist tr {
+    height: 70px;
+}
+
+.song-data {
+    color: #445;
+    background-color: #888;
+}
+
+.song-data-active {
+    color: #eef;
+    background-color: #114;
+}
+
+.song-data, .song-data-active {
+    font-size: 26px;
+    font-weight: bold;
+    height: 96px;
+}
+
+.play-char {
+	width: 50px;
+    background-color: #666;
+}
+
+.play-char-active {
+    color: #76dc4d;
+    background-color: #194d19;
+}
+
+/*
+.play-char:hover {
+    color: #76dc4d;
+    background-color: #444;
+}
+*/
+
+.play-char, .play-char-active {
+    
+    cursor: pointer;
+}
+
+.play-char img, .play-char-active img, .control-marker img {
+    width: 50px;
+    height: auto;
+}
+
+.play-char span, .play-char-active span {
+    padding-left: 10px;
+}
+
+.patch-data {
+    color: #667;
+    background-color: #fff;
+}
+
+.patch-data-active {
+    color: #ccf;
+    background-color: #223;
+}
+
+.td-title {
+	width: 70%;
+}
+
+.td-key {
+    width: 15%;
+}
+
+tr.row-clickable {
+    cursor: pointer;
+}
+
+td span.item-remove {
+	color: #c01f1f;
+}
+
+.center-el {
+	display: table;
+    text-align: center;
+}
+
+.panic-button {
+	height: 30px;
+    color: white;
+    background-color: #c62828;
+    margin: 0 100px 0 100px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/*
+.panic-button:hover {
+    background-color: #f44336;
+}
+*/
+
+.panic-button:active {
+    background-color: #729fcf;
+}
+
+.device-list, .debug {
+	position: fixed;
+    height: 80%;
+    width: 80%;
+    color: white;
+}
+
+.device-list {
+    left: 10%;
+    top: 10%;
+}
+
+.debug {
+    left: 10%;
+    top: 10%;
+}
+
+.debug-title, .device-list-title {
+	width: 100%;
+	height: 26px;
+	font-size: .9em;
+	color: silver;
+	background-color: #26734d;
+	border-radius: 5px 5px 0 0;
+	margin: 0;
+}
+
+.debug-text, .device-list-text {
+    width: 100%;
+    height: 100%;
+    font-size: 1.1em;
+    border-radius: 0 0 5px 5px;
+}
+
+.debug-title, .device-list-title, .debug-text, .device-list-text  {
+    padding: 4px 8px;
+}
+
+.debug-text {
+       background-color:  #005d40;
+}
+
+.device-list-text {
+       background-color:  #003380;
+}
+
+.glyphicon-remove:hover {
+    color: #990000;
+}
+
+
