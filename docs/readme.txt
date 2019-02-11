@@ -29,7 +29,7 @@ Get Chromium to auto start in kiosk mode
 Create .config/autostart/autoChromium.desktop with the following contents:
 [Desktop Entry]                                                                                                                                                                         
 Type=Application                                                                                                                                                                        
-Exec=/usr/bin/chromium-browser --noerrdialogs --disable-session-crashed-bubble --disable-infobars --kiosk http://midistage-pi.local                                                     
+Exec=/usr/bin/chromium-browser --noerrdialogs --disable-session-crashed-bubble --disable-infobars --kiosk --app=http://midistage-pi.local                                                     
 Hidden=false                                                                                                                                                                            
 X-GNOME-Autostart-enabled=true                                                                                                                                                          
 Name[en_US]=AutoChromium                                                                                                                                                                
